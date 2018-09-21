@@ -1,0 +1,27 @@
+/git/home なし
+/git/share なし
+
+
+/git/etc/init.d/tomcat8
+- tomcat8.orgは無視して良い（ただのバックアップ）
+/git/etc/sysconfig/clock
+/git/etc/*.conf
+
+/git/etc/tomcat8/
+
+/git/var/lib/tomcat8/
+- だいたいバイナリなのでチェックから漏れるかも
+
+/git/var/www/html/
+- ほとんどの学生ができてないので不要かも
+
+-----------
+/log/
+- lsyncd.log
+- mongodb/mongod.log
+- /script/
+  - まとめてから，制御文字を削除する
+- /tomcat8/
+- yum.log
+
+/home/ec2-user/.bash_history

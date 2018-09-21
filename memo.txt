@@ -1,0 +1,32 @@
+
+Scriptコマンドの制御文字削除
+https://uxmilk.jp/26165#js-heading1
+
+制御文字を削除するスクリプト->削除しなくても良いかも（diff取るだけなので）
+aaa=re.sub(r'\x1B\[([0-9]{1,2}(;[0-9]{1,2})*)?m','', ttt)
+
+ワインデータセット
+https://gist.github.com/tijptjik/9408623
+
+Windows Subsystem for Linux
+http://www.atmarkit.co.jp/ait/articles/1608/08/news039.html
+
+
+Windowsのpython3でファイルが読み込めない
+https://ja.stackoverflow.com/questions/34431/python-%E3%82%A8%E3%83%A9%E3%83%BCcp932-codec-cant-encode-character
+
+OpenPoseでストリートファイター（Python）
+
+team006-3はラストステップあたりのデータがないので，分析対象外にする
+- 同じくteam000は教師データなので
+
+完璧な解答データを大Step(Step1~4)ごとに記録したい
+- AWSのVMで作成できるはず
+  - クラスタリングに解答データを含められる
+  - 学生毎に解答データと比較できる
+- Stepごとのデータで比較とかもできると面白いかも
+  - 学生毎にStep完了時刻をしらべて，その時の状態にgit checkout(できたら）
+
+
+
+
